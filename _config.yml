@@ -1,7 +1,7 @@
 # Site
 name: "Blog Retorika"
 title: "Blog Retorika"
-description: "Ketika Si Empu Repositori tak lagi mampu menahan diri."
+description: "We write to taste life twice, in the moment and in retrospect.<br>—Anaïs Nin"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /blog
@@ -16,7 +16,7 @@ authors:
   aksal:
     name: Aksal
     display_name: Aksal
-    gravatar: 
+    avatar: assets/images/logo.png
     email: aksal.sf@gmail.com
     web: https://aksalsf.github.io/blog/
     twitter: 
