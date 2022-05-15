@@ -4,7 +4,7 @@ title: "Solusi Koneksi OpenVPN di Fedora 36"
 author: aksal
 categories: [ Linux ]
 tags: [ Fedora, OpenVPN ]
-image: -
+image: assets/images/2022-05-15-solusi-galat-menghubungkan-openvpn-di-fedora-36.jpg
 description: "Cara mengatasi OpenSSL: error:0308010C:digital envelope routines::unsupported"
 featured: true
 ---
