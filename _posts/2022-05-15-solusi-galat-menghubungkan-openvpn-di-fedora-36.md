@@ -12,7 +12,7 @@ featured: true
 > OpenSSL: error:0308010C:digital envelope routines::unsupported
 
 ### Latar Belakang
-Jadi kemarin saya baru saja menginstal Fedora 36 setelah beberapa bulan menggunakan \Pop!_OS\. Tentu saja agenda ketika proses instalasi selesai yaitu *setup environment* untuk bekerja.
+Jadi kemarin saya baru saja menginstal Fedora 36 setelah beberapa bulan menggunakan Pop!_OS\. Tentu saja agenda ketika proses instalasi selesai yaitu *setup environment* untuk bekerja.
 
 Salah satunya, yaitu memasang VPN!
 
