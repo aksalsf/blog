@@ -7,9 +7,10 @@ tags: [ Fedora, OpenVPN ]
 image: assets/images/2022-05-15-solusi-galat-menghubungkan-openvpn-di-fedora-36.jpg
 description: "Cara mengatasi OpenSSL: error:0308010C:digital envelope routines::unsupported"
 featured: true
+comments: false
 ---
 
-> OpenSSL: error:0308010C:digital envelope routines::unsupported
+> Cara mengatasi OpenSSL: error:0308010C:digital envelope routines::unsupported
 
 ### Latar Belakang
 Jadi kemarin saya baru saja menginstal Fedora 36 setelah beberapa bulan menggunakan Pop!_OS\. Tentu saja agenda ketika proses instalasi selesai yaitu *setup environment* untuk bekerja.
