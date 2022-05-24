@@ -2,12 +2,13 @@
 name: "Lektur"
 title: "Lektur"
 description: "We write to taste life twice, in the moment and in retrospect.<br>—Anaïs Nin"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+logo: "assets/images/logo.png"
+favicon: "assets/images/logo.png"
 baseurl: /blog
-google_analytics: ''
-disqus: ''
-#mailchimp-list: ''
+google_analytics: ""
+locale: "id_ID"
+disqus: ""
+#mailchimp-list: ""
 include: ["_pages"]
 permalink: /:title/
 
@@ -36,7 +37,7 @@ jekyll-archives:
     - categories
   layout: archive
   permalinks:
-    category: '/category/:name/'
+    category: "/category/:name/"
     
 # Pagination 
 paginate: 6
