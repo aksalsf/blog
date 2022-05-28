@@ -11,15 +11,15 @@ comments: false
 ---
 
 ### Langkah-langkah
-1. Buka terminal (apapun nama aplikasinya)
-2. Jalankan perintah berikut
+- Buka terminal (apapun nama aplikasinya)
+- Jalankan perintah berikut
 
 ```
 nmcli con add type wifi ifname wlan0 con-name CONNECTION_NAME ssid SSID
 nmcli con edit id CONNECTION_NAME
 ```
 
-3. Lanjutkan menyunting connection tersebut pada terminal nmcli
+- Lanjutkan menyunting connection tersebut pada terminal nmcli
 
 ```
 set ipv4.method auto
