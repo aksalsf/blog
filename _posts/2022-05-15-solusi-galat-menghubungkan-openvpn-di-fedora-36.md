@@ -12,7 +12,7 @@ comments: false
 
 > Cara mengatasi OpenSSL: error:0308010C:digital envelope routines::unsupported
 
-### Latar Belakang
+### Story
 Jadi kemarin saya baru saja menginstal Fedora 36 setelah beberapa bulan menggunakan Pop!_OS\. Tentu saja agenda ketika proses instalasi selesai yaitu *setup environment* untuk bekerja.
 
 Salah satunya, yaitu memasang VPN!
@@ -21,7 +21,7 @@ Namun, begitu saya mengimpor file VPN melalui panel **Network** di jendela **Set
 
 Kemudian saya mencoba untuk melihat log galatnya melalui **Gnome Console** dengan menjalankan perintah `openvpn [nama_file].ovpn` dan saya pun mendapatkan pesan eror `OpenSSL: error:0308010C:digital envelope routines::unsupported`
 
-### Solusi
+### What I've Done?
 Setelah berputar-putar tanpa arah, akhirnya saya menemukan solusinya pada [artikel](https://ask.fedoraproject.org/t/openssl-error-when-connecting-to-vpn-via-networkmanager-fedora-36/21123/8) di forum [Ask Fedora](https://ask.fedoraproject.org). Solusi yang saya temukan dan kemudian saya terapkan yaitu dengan menghapus karakter tagar untuk menonaktifkan komentar di file `/etc/ssl/openssl.cnf` pada bagian berikut:
 ```
 [openssl_init]

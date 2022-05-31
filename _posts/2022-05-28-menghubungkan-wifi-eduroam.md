@@ -12,7 +12,7 @@ comments: false
 
 > Memang agak aneh caranya bikin koneksi kalau tipe jaringannya wpa-peap
 
-### Langkah-langkah
+### What I've Done?
 - Buka terminal (apapun nama aplikasinya)
 - Jalankan perintah berikut
 
