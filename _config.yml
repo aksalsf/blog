@@ -2,8 +2,8 @@
 name: "Lektur"
 title: "Lektur"
 description: "We write to taste life twice, in the moment and in retrospect.<br>—Anaïs Nin"
-logo: "assets/images/logo.png"
-favicon: "assets/images/logo.png"
+logo: "assets/images/avatar.jpg"
+favicon: "assets/images/favicon.ico"
 baseurl: /blog
 google_analytics: ""
 locale: "id_ID"
@@ -17,7 +17,7 @@ authors:
   aksal:
     name: Aksal
     display_name: Aksal
-    avatar: assets/images/logo.png
+    avatar: assets/images/avatar.jpg
     email: aksal.sf@gmail.com
     web: https://aksalsf.github.io/blog/
     twitter: 

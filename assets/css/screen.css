@@ -12,12 +12,12 @@ License: https://www.wowthemes.net/freebies-license/
 }
 
 a {
-    color: #bc2038;
+    color: #ffc600;
     transition: all 0.2s;
 }
 
 a:hover {
-    color: #820000;
+    color: #ffc600;
     text-decoration: none;
 }
 
@@ -76,6 +76,22 @@ section.recent-posts {
     display: inline-block;
     padding-bottom: 20px;
     margin-bottom: -1px;
+}
+
+.article-post a:hover {
+    position: relative;
+}
+
+.article-post a:hover:before {
+    height: 4px;
+    position: absolute;
+    background: #ffc600;
+    content: "";
+    width: 100%;
+    bottom: -2px;
+    z-index: -1;
+    transition: transform 0.1s ease 0s;
+    transform: skew(-20deg) rotate(-2deg) scaleX(1);
 }
 
 .article-post ol,
@@ -337,7 +353,7 @@ span.post-read-more a:hover {
 }
 
 blockquote {
-    border-left: 4px solid #bc2038;
+    border-left: 4px solid #ffc600;
     padding: 0 20px;
     font-style: italic;
     color: rgba(0, 0, 0, .5);
@@ -525,8 +541,8 @@ ul.tags li a:hover {
 }
 
 .btn.follow {
-    border-color: #02B875;
-    color: #1C9963;
+    border-color: #ffc600;
+    color: #ffc600;
     padding: 3px 10px;
     text-align: center;
     border-radius: 999em;
@@ -535,8 +551,8 @@ ul.tags li a:hover {
 }
 
 .btn.subscribe {
-    background-color: #1C9963;
-    border-color: #1C9963;
+    background-color: #ffc600;
+    border-color: #ffc600;
     color: rgba(255, 255, 255, 1);
     fill: rgba(255, 255, 255, 1);
     border-radius: 30px;
@@ -581,8 +597,8 @@ ul.tags li a:hover {
 }
 
 .alertbar input[type="submit"] {
-    background-color: #1C9963;
-    border: 1px solid #1C9963;
+    background-color: #ffc600;
+    border: 1px solid #ffc600;
     color: rgba(255, 255, 255, 1);
     fill: rgba(255, 255, 255, 1);
     font-size: 0.85rem;
