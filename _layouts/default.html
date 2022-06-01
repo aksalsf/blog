@@ -37,7 +37,9 @@ ga('send', 'pageview');
 <body class="{{layout}}" style="background: url(https://aksalsf.github.io/blog/assets/images/grunge-black.png);">
 	<!-- defer loading of font and font awesome -->
 	<noscript id="deferred-styles">
-		<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	</noscript>
 
@@ -47,7 +49,7 @@ ga('send', 'pageview');
 
 <!-- Site Title
 ================================================== -->
-<div class="mainheading">
+<header class="mainheading text-center">
     <h1 class="sitetitle">
         <a class="text-body" href="{{ site.baseurl }}/">
             {{ site.name }}
@@ -56,7 +58,7 @@ ga('send', 'pageview');
     <p class="lead">
         {{ site.description }}
     </p>
-</div>
+</header>
 
 <!-- Content
 ================================================== -->
@@ -88,7 +90,7 @@ ga('send', 'pageview');
 	<div class="d-md-flex h-100">
 		<div class="d-none d-md-block col-md-4 transpdark align-self-center text-center h-100">
             <div class="d-md-flex align-items-center justify-content-center h-100">
-                <h2 class="d-md-block align-self-center py-1 font-weight-light">Jelajahi <span class="d-none d-md-inline">→</span></h2>
+                <h2 class="d-md-block align-self-center py-1 font-weight-bold">Jelajahi <span class="d-none d-md-inline">→</span></h2>
             </div>
 		</div>
 		<div class="col-md-8 p-5 align-self-center text-center">

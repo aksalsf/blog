@@ -104,8 +104,6 @@ jQuery(document).ready(function($){
         lastScrollTop = st;
     }
         
-    $('.site-content').css('margin-top', $('header').outerHeight() + 'px');  
-    
     // spoilers
      $(document).on('click', '.spoiler', function() {
         $(this).removeClass('spoiler');
